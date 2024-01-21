@@ -1,0 +1,15 @@
+using System;
+
+class vj1
+{
+    static void Main()
+    {
+        int x = 100;
+        int y = 3;
+
+            int quotient = x / y;
+            int remainder = x % y;
+
+        Console.WriteLine($"\"x dijeljeno s y je {quotient} i ostatak {remainder}\"");
+    }
+}
